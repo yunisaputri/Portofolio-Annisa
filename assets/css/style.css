@@ -396,8 +396,9 @@
   border-radius: 50%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
+/* Container Utama Dokumentasi */
 .documentation-section {
-  margin-top: 50px;
+  padding: 40px 0;
 }
 
 .section-subtitle {
@@ -406,43 +407,58 @@
   margin-bottom: 30px;
 }
 
+/* Grid Tampilan Berdampingan (Responsive 2-3 Kolom) */
 .documentation-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
 }
 
+/* Kartu Dokumentasi */
 .doc-card {
   background: #ffffff;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eef2f5;
+  display: flex;
+  flex-direction: column;
 }
 
-.doc-card:hover {
-  transform: translateY(-5px);
+/* Pembatas Ukuran Foto agar Tidak Membesar/Meluap */
+.doc-img {
+  width: 100%;
+  height: 220px; /* Atur tinggi foto agar seragam dengan kartu proyek */
+  overflow: hidden;
+  background-color: #f8f9fa;
 }
 
 .doc-img img {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
+  height: 100%;
+  object-fit: cover; /* Menjaga foto tetap proporsional tanpa terdistorsi */
+  display: block;
 }
 
+/* Bagian Teks di Dalam Kartu */
 .doc-body {
-  padding: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 
 .doc-body h4 {
-  margin: 0 0 8px 0;
-  font-size: 1.1rem;
-  color: #333;
+  font-size: 1.15rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-weight: 600;
 }
 
 .doc-body p {
+  font-size: 0.92rem;
+  color: #6c757d;
+  line-height: 1.5;
   margin: 0;
-  font-size: 0.9rem;
-  color: #666;
-  line-height: 1.4;
 }
