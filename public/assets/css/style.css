@@ -383,3 +383,16 @@
                 font-size: 0.85rem;
             }
         }
+/* CSS Tambahan untuk Foto Profil */
+.profile-image-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}

@@ -65,7 +65,7 @@
         <!-- PROYEK 4: REST API ARMADA TRANSPORTASI -->
         <div class="project-card">
           <div class="project-img">
-            <img src="#" alt="API Transportasi Armada">
+            <img src="/gambar/7.jpeg" alt="API Transportasi Armada">
           </div>
           <div class="project-body">
             <div>
