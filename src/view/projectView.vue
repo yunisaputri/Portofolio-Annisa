@@ -1,10 +1,92 @@
 <template>
   <div>
+    <!-- SECTION TENTANG -->
+    <section id="tentang">
+      <div class="profile-image-container">
+        <img src="/gambar/6.jpeg" alt="Foto Profil Annisa Rahmania Putri" class="profile-img">
+      </div>
+
+      <div class="tentang-content">
+        <h1>Halo, Saya Annisa Rahmania Putri</h1>
+        <h2>Portofolio Hasil Kegiatan Magang / PKL</h2>
+
+        <p>
+          Website ini dibuat sebagai bentuk dokumentasi dan portofolio hasil kegiatan magang yang telah saya jalani. Selama masa magang ini, saya belajar banyak hal baru, mengasah keterampilan teknis, serta mempraktikkan secara langsung ilmu yang didapat dari sekolah ke dalam dunia kerja profesional.
+        </p>
+
+        <div class="internship-info">
+          <div class="info-item">
+            <span>Instansi / Perusahaan</span>
+            <strong>Kantor Layanan Terpadu (KLT) BSN Pekanbaru Riau</strong>
+          </div>
+          <div class="info-item">
+            <span>Pembimbing Instruktur</span>
+            <strong>Sasmita Erlangga S.Kom</strong>
+          </div>
+          <div class="info-item">
+            <span>Status</span>
+            <strong>Magang</strong>
+          </div>
+        </div>
+
+        <p>
+          Portofolio ini dipersiapkan atas arahan Bapak Instruktur sebagai bukti pembelajaran dan bekal hasil karya yang akan saya bawa serta presentasikan kembali di sekolah.
+        </p>
+
+        <div class="cta-buttons">
+          <router-link to="/project" class="btn btn-primary">Lihat Hasil Proyek</router-link>
+          <router-link to="/keahlian" class="btn btn-outline">Lihat Keahlian</router-link>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION KEAHLIAN -->
+    <section id="keahlian">
+      <h2 class="section-title">Keahlian Dipelajari</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <h3>Pengembangan Web / Teknis</h3>
+          <div class="skill-tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript Dasar</span>
+            <span class="tag">Struktur Web Responsive</span>
+            <span class="tag">Laravel</span>
+            <span class="tag">UI/UX Principles</span>
+            <span class="tag">Postman</span>
+            <span class="tag">MySQL & XAMPP</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Software & Peralatan</h3>
+          <div class="skill-tags">
+            <span class="tag">VS Code</span>
+            <span class="tag">Microsoft Word</span>
+            <span class="tag">Microsoft Excel</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Pengalaman Kerja (Soft Skills)</h3>
+          <div class="skill-tags">
+            <span class="tag">Kedisiplinan</span>
+            <span class="tag">Kerja Sama Tim</span>
+            <span class="tag">Komunikasi Profesional</span>
+            <span class="tag">Problem Solving</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION PROYEK & TUGAS MAGANG -->
     <section id="proyek">
       <h2 class="section-title">Proyek & Tugas Magang</h2>
       <div class="projects-grid">
 
-        <!-- PROYEK 1: CMS KATALOG PRODUK BER-SNI & PANEL ADMIN -->
+        <!-- PROYEK 1 -->
         <div class="project-card">
           <div class="project-img">
             <img src="/gambar/Gambar2.jpeg" alt="Sistem CMS Katalog Produk Ber-SNI">
@@ -23,7 +105,7 @@
           </div>
         </div>
 
-        <!-- PROYEK 2: DASHBOARD ADMIN & PANEL PENGELOLA KATALOG SNI (BACKEND) -->
+        <!-- PROYEK 2 -->
         <div class="project-card">
           <div class="project-img">
             <img src="/gambar/3.jpeg" alt="Dashboard Admin Katalog SNI (Backend)">
@@ -43,7 +125,7 @@
           </div>
         </div>
 
-        <!-- PROYEK 3: ELECTRODASH ADMIN -->
+        <!-- PROYEK 3 -->
         <div class="project-card">
           <div class="project-img">
             <img src="/gambar/4.jpeg" alt="ElectroDash Admin Dashboard">
@@ -62,7 +144,7 @@
           </div>
         </div>
 
-        <!-- PROYEK 4: REST API ARMADA TRANSPORTASI -->
+        <!-- PROYEK 4 -->
         <div class="project-card">
           <div class="project-img">
             <img src="/gambar/7.jpeg" alt="API Transportasi Armada">
@@ -80,7 +162,7 @@
           </div>
         </div>
 
-        <!-- PROYEK 5: WEBSITE PORTOFOLIO MAGANG -->
+        <!-- PROYEK 5 -->
         <div class="project-card">
           <div class="project-img">
             <img src="/gambar/5.jpeg" alt="Website Portofolio Magang">
@@ -101,7 +183,7 @@
       </div>
     </section>
 
-    <!-- SECTION BARU: DOKUMENTASI KEGIATAN MAGANG -->
+    <!-- SECTION DOKUMENTASI KEGIATAN MAGANG -->
     <section id="dokumentasi" class="documentation-section">
       <h2 class="section-title">Dokumentasi Kegiatan Magang</h2>
       <p class="section-subtitle">Momen kebersamaan dan aktivitas harian selama masa magang.</p>
@@ -170,7 +252,7 @@
           </div>
           <div class="doc-body">
             <h4>Diskusi & Pembahasan Materi</h4>
-            <p>Sesi belajar kelompok dan diskusi interaktif antar sesama rekan magang.</p>
+            <p>Sesi belajar kelompok dan diskusi interaktif antar sesama rekan magang untuk membedah alur logika program dan mengatasi error.</p>
           </div>
         </div>
 
