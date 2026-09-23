@@ -100,5 +100,92 @@
 
       </div>
     </section>
+
+    <!-- SECTION BARU: DOKUMENTASI KEGIATAN MAGANG -->
+    <section id="dokumentasi" class="documentation-section">
+      <h2 class="section-title">Dokumentasi Kegiatan Magang</h2>
+      <p class="section-subtitle">Momen kebersamaan dan aktivitas harian selama masa magang.</p>
+
+      <div class="documentation-grid">
+
+        <!-- Foto 1 -->
+        <div class="doc-card">
+          <div class="doc-img">
+            <img src="/gambar/8.jpeg" alt="Mengerjakan website portofolio">
+          </div>
+          <div class="doc-body">
+            <h4>Pembuatan Website Portofolio</h4>
+            <p>Proses merancang dan membuat tampilan website portofolio magang sebagai bentuk publikasi hasil pengerjaan proyek selama magang.</p>
+          </div>
+        </div>
+
+        <!-- Foto 2 -->
+        <div class="doc-card">
+          <div class="doc-img">
+            <img src="/gambar/9.jpeg" alt="Membuat website katalog produk SNI">
+          </div>
+          <div class="doc-body">
+            <h4>Pengembangan Katalog Produk SNI</h4>
+            <p>Proses pengerjaan dan pengembangan fitur antarmuka serta sistem manajemen pada proyek web katalog produk berstandar SNI.</p>
+          </div>
+        </div>
+
+        <!-- Foto 3 -->
+        <div class="doc-card">
+          <div class="doc-img">
+            <img src="/gambar/10.jpeg" alt="Kedatangan tamu dari ukm lame">
+          </div>
+          <div class="doc-body">
+            <h4>Kunjungan Pelaku UKM Lame</h4>
+            <p>Momen pendampingan dan sambutan hangat atas kunjungan pelaku usaha UKM Lame ke kantor KLT BSN Pekanbaru Riau.</p>
+          </div>
+        </div>
+
+        <!-- Foto 4 -->
+        <div class="doc-card">
+          <div class="doc-img">
+            <img src="/gambar/11.jpeg" alt="Kedatangan tamu dari ukm Emak CW">
+          </div>
+          <div class="doc-body">
+            <h4>Kunjungan Pelaku UKM Emak CW</h4>
+            <p>Kegiatan pendampingan layanan serta konsultasi bersama para pelaku usaha dari UKM Emak CW selama berada di kantor.</p>
+          </div>
+        </div>
+
+        <!-- Foto 5 -->
+        <div class="doc-card">
+          <div class="doc-img">
+            <img src="/gambar/12.jpeg" alt="Belajar cara memakai Postman">
+          </div>
+          <div class="doc-body">
+            <h4>Pengujian REST API via Postman</h4>
+            <p>Eksplorasi dan latihan teknis pengujian endpoint REST API menggunakan Postman untuk memastikan respon data backend berjalan lancar.</p>
+          </div>
+        </div>
+
+        <!-- Foto 6 -->
+        <div class="doc-card">
+          <div class="doc-img">
+            <img src="/gambar/13.jpeg" alt="Pembahasan Materi bersama">
+          </div>
+          <div class="doc-body">
+            <h4>Diskusi & Pembahasan Materi</h4>
+            <p>Sesi belajar kelompok dan diskusi interaktif antar sesama rekan magang.</p>
+          </div>
+        </div>
+
+        <!-- Foto 7 -->
+        <div class="doc-card">
+          <div class="doc-img">
+            <img src="/gambar/14.jpeg" alt="Suasana belajar di Kantor">
+          </div>
+          <div class="doc-body">
+            <h4>Suasana Belajar & Kerja Harian</h4>
+            <p>Gambaran rutinitas harian di tempat magang saat menyelesaikan tugas coding, berkolaborasi, dan mendokumentasikan hasil pengerjaan.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
   </div>
 </template>
