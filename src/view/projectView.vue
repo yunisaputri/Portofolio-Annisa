@@ -190,11 +190,3 @@
     </section>
   </div>
 </template>
-
-<style scoped>
-@import "@/assets/css/dokumentasi.css";
-
-.project-page {
-  padding: 40px 0;
-}
-</style>

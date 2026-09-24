@@ -81,7 +81,3 @@
     </section>
   </div>
 </template>
-
-<style scoped>
-@import "@/assets/css/dokumentasi.css";
-</style>
