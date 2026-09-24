@@ -2,7 +2,6 @@
   <div>
     <!-- SECTION TENTANG -->
     <section id="tentang">
-      <!-- TAMBAHAN: Tempat Foto Profil -->
       <div class="profile-image-container">
         <img src="/gambar/6.jpeg" alt="Foto Profil Annisa Rahmania Putri" class="profile-img">
       </div>
@@ -35,8 +34,7 @@
         </p>
 
         <div class="cta-buttons">
-          <router-link to="/project" class="btn btn-primary">Lihat Hasil Proyek</router-link>
-          <router-link to="/keahlian" class="btn btn-outline">Lihat Keahlian</router-link>
+          <router-link to="/project" class="btn btn-primary">Lihat Proyek & Dokumentasi</router-link>
         </div>
       </div>
     </section>
@@ -83,3 +81,7 @@
     </section>
   </div>
 </template>
+
+<style scoped>
+@import "@/assets/css/dokumentasi.css";
+</style>

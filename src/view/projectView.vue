@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="project-page">
+    <!-- SECTION PROYEK -->
     <section id="proyek">
       <h2 class="section-title">Proyek & Tugas Magang</h2>
       <div class="projects-grid">
@@ -101,7 +102,7 @@
       </div>
     </section>
 
-    <!-- SECTION BARU: DOKUMENTASI KEGIATAN MAGANG -->
+    <!-- SECTION DOKUMENTASI KEGIATAN MAGANG -->
     <section id="dokumentasi" class="documentation-section">
       <h2 class="section-title">Dokumentasi Kegiatan Magang</h2>
       <p class="section-subtitle">Momen kebersamaan dan aktivitas harian selama masa magang.</p>
@@ -189,3 +190,11 @@
     </section>
   </div>
 </template>
+
+<style scoped>
+@import "@/assets/css/dokumentasi.css";
+
+.project-page {
+  padding: 40px 0;
+}
+</style>
